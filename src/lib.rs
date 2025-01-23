@@ -8,6 +8,6 @@ pub mod utils;
 
 pub use node::Node;
 pub use task::Task;
-pub use network::network;
+pub use network::Network;
 pub use states::{node_state::NodeState, task_state::TaskState};
 pub use errors::{NodeError, TaskError};
