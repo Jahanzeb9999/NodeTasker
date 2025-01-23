@@ -9,11 +9,11 @@ use crate::utils::metrics::NodeMetrics;
 
 
 pub struct Node {
-    id: Uuid,
-    state: NodeState,
-    capacity: usize,
-    task: DashMap<Uuid, Task>,
-    metrics: NodeMetrics,
+    pub id: Uuid,
+    pub state: NodeState,
+    pub capacity: usize,
+    pub task: DashMap<Uuid, Task>,
+    pub metrics: NodeMetrics,
 
 }
 
